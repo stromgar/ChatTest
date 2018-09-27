@@ -18,7 +18,7 @@ io.on('connection', function(socket){
 
     
 
-    socket.username = "Bruker_" + userNameId;
+    socket.username = "User_" + userNameId;
     users.push(socket.username);
     console.log(users);
 
